@@ -1,0 +1,11 @@
+{
+  "Icon": "Icons/ItemCategories/games.png",
+  "Order": 4,
+  "Children": [
+    {
+      "Id": "Loveletter",
+      "Name": "Love Letter",
+      "Icon": "Icons/ItemCategories/Love_Letter_Caree_Verso_128x128.png"
+    }
+  ]
+}
