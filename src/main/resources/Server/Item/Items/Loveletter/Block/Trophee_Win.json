@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Gold_Brick.name"
+  },
+  "Set": "Rock_Gold_Brick",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "RandomRotation": "None",
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#feb03f",
+    "VariantRotation": "NESW",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Models/Trophee.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/Trophée.png"
+      }
+    ],
+    "Material": "Solid",
+    "RotationYawPlacementOffset": "None",
+    "FlipType": "Orthogonal"
+  },
+  "Tags": {
+    "Family": [
+      "Gold"
+    ],
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemLevel": 1,
+  "MaxStack": 1,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      168,
+      0
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Trophee_Win.png"
+}

@@ -1,0 +1,89 @@
+{
+  "TranslationProperties": {
+    "Name": "Mateq",
+    "Description": ""
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Games.Loveletter"
+  ],
+  "Set": "Furniture_Christmas",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -7
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Cloth",
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#c08560",
+    "State": {
+      "Id": "container",
+      "Capacity": 23,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Resources/Animations/Boite_en_carton_close.blockyanim",
+          "Looping": false
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Resources/Animations/Boite_en_carton_open.blockyanim"
+        }
+      }
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "Support": "Required"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    },
+    "CustomModel": "Resources/Models/Boite_en_Carton.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/Boite_en_carton.png"
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "MaxStack": 10,
+  "Icon": "Icons/ItemsGenerated/Boite_Carton.png",
+  "UsePlayerAnimations": false
+}

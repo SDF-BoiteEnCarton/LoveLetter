@@ -1,0 +1,123 @@
+{
+  "TranslationProperties": {
+    "Name": "loveletter.items.Loveletter_Princesse.name",
+    "Description": "loveletter.items.Loveletter_Princesse.description"
+  },
+  "Recipe": {
+    "OutputQuantity": 1,
+    "TimeSeconds": 2,
+    "RequiredMemoriesLevel": 1,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Games"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "Games.Loveletter"
+  ],
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      20,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -17
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Loveletter/Cartes/Princesse_64x64.png",
+  "Tags": {
+    "Type": [
+      "Carte"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": false,
+  "InteractionConfig": {
+    "DisplayOutlines": false
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Models/princesse.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/princesse_carte.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Roof",
+    "HitboxType": "Carte_Hitbox",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "Princesse_Items"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#e5aa5c",
+    "State": {
+      "Definitions": {
+        "Corner_Right": {
+          "CustomModel": "Resources/princesse.blockymodel",
+          "HitboxType": "Stairs_Thin_Corner_Right",
+          "FlipType": "Orthogonal",
+          "Supporting": {},
+          "Gathering": {
+            "Breaking": {
+              "DropList": ""
+            }
+          },
+          "IgnoreSupportWhenPlaced": false,
+          "DrawType": "Model",
+          "CubeShadingMode": "Standard",
+          "Material": "Solid"
+        },
+        "Corner_Left": {
+          "CustomModel": "Resources/princesse.blockymodel",
+          "HitboxType": "Stairs_Thin_Corner_Left",
+          "FlipType": "Orthogonal",
+          "Supporting": {},
+          "SupportsRequiredFor": "All",
+          "DrawType": "Model"
+        }
+      }
+    },
+    "Supporting": {},
+    "RandomRotation": "None",
+    "MaxSupportDistance": 0,
+    "FlipType": "Symmetric",
+    "CustomModelScale": 1,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "AllowSupportPropagation": false,
+          "Support": "Required"
+        }
+      ]
+    },
+    "Opacity": "Solid",
+    "MovementSettings": {
+      "IsClimbable": false
+    }
+  },
+  "Scale": 1.2,
+  "MaxStack": 100,
+  "Quality": "Quality_Items"
+}

@@ -1,0 +1,16 @@
+{
+  "ItemTooltipTexture": "UI/ItemQualities/Slots/SlotLoveLetterFond.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipRelicArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotLoveletter.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotLoveletter.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotLoveletter.png",
+  "TextColor": "#9f0000",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ShowItemParticles": false,
+    "ParticleSystemId": "Drop_Legendary"
+  },
+  "LocalizationKey": "server.general.qualities.Legendary",
+  "QualityValue": 5
+}

@@ -1,0 +1,49 @@
+##CARTE
+
+items.Loveletter_Garde.name=1 Garde
+items.Loveletter_Garde.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Essayez de deviner la carte d'un joueur (excepté Garde et Assassin), si vous trouvez, le joueur est éliminé de la manche.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 5</color>
+
+items.Loveletter_Pretresse.name=2 Prêtresse
+items.Loveletter_Pretresse.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Regardez secrètement la main d'un autre joueur.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 2</color>
+
+items.Loveletter_Baron.name=3 Baron
+items.Loveletter_Baron.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Comparez secrètement votre carte avec celle d'un autre joueur, celui qui à la plus faible valeur est éliminé de la manche.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 2</color>
+
+items.Loveletter_Servante.name=4 Servante
+items.Loveletter_Servante.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Jusqu'au prochain tour, vous êtes protégé des effets des cartes des autres joueurs.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 2</color>
+
+items.Loveletter_Prince.name=5 Prince
+items.Loveletter_Prince.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Choisissez un joueur (y compris vous), celui-ci défausse la carte qu'il a en main.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 2</color>
+
+items.Loveletter_Roi.name=6 Roi
+items.Loveletter_Roi.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Échangez votre main, avec un joueur de votre choix.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Comtesse.name=7 Comtesse 
+items.Loveletter_Comtesse.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Défaussez cette carte, si vous avez en main le Roi ou le Prince.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Princesse.name=8 Princesse
+items.Loveletter_Princesse.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Si vous défaussez cette carte, vous êtes éliminé de la manche.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Assassin.name=0 Assassin
+items.Loveletter_Assassin.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Si un joueur joue un garde contre vous, révélez votre Assasin. Ce joueur est éliminé, puis vous piochez une autre carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Voyante.name=0 Voyante
+items.Loveletter_Voyante.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Piochez 2 cartes pour en avoir 3 en mains, puis replacez 2 cartes de votre choix dans la pioche.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Clown.name=0 Clown
+items.Loveletter_Clown.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Prenez et révélez aux joueurs toutes les cartes de leurs mains (y compris vous, si vous le souhaitez). Mélangez-les et distribuez-en une au hasard face cachée à chacun d'eux.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Cupidon.name=0 Cupidon
+items.Loveletter_Cupidon.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Choisissez publiquement deux joueurs (y compris vous), si l'un d'eux est éliminé durant la manche, l'autre joueur l'est aussi. S'ils sont les deux derniers joueurs en jeu durant la manche, ils gagnent chacun un point.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Loupgarou.name=0 Loup-garou (a revoir)
+items.Loveletter_Loupgarou.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Piochez une carte, regardez-la secrètement et défaussez la face cachée. Puis piochez une autre carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Vampire.name=0 Vampire (a revoir)
+items.Loveletter_Vampire.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Faites défausser face cachée la carte d'un joueur en la regardant secrètement et en ignorant son pouvoir. Ce joueur pioche une nouvelle carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Diable.name=0 Diable
+items.Loveletter_Diable.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Si vous êtes éliminé alors que vous avez cette carte dans votre défausse, replacez-la dans la pioche. Le prochain joueur qui pioche le Diable est immédiatement éliminé.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Magicien.name=0 Magicien
+items.Loveletter_Magicien.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Quand un joueur joue une carte qui vous cible, vous pouvez annuler son effet, ou l'appliquer à un autre joueur de votre choix. Piochez ensuite une carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
