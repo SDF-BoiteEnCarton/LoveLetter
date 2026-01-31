@@ -48,61 +48,60 @@
   "InteractionConfig": {
     "DisplayOutlines": false
   },
+  "Scale": 1.2,
+  "MaxStack": 100,
+  "Quality": "Quality_Items",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "CustomModel": "Resources/Models/LoveLetter_Card-Default-Hidden_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Models_Textures/Baron.png",
+        "Texture": "Resources/Models_Textures/LoveLetter/Baron.png",
         "Weight": 1
       }
     ],
     "Group": "Roof",
     "HitboxType": "Carte_Hitbox",
     "VariantRotation": "NESW",
-    "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
-        "ItemId": "Baron_Items"
+        "ItemId": "Assassin_Items"
       }
     },
     "BlockParticleSetId": "Grass",
     "BlockSoundSetId": "Cloth",
     "ParticleColor": "#e5aa5c",
-    "State": {
-      "Definitions": {
-        "Corner_Right": {
-          "CustomModel": "Resources/princesse.blockymodel",
-          "HitboxType": "Stairs_Thin_Corner_Right",
-          "FlipType": "Orthogonal",
-          "Supporting": {},
-          "Gathering": {
-            "Breaking": {
-              "DropList": ""
-            }
-          },
-          "IgnoreSupportWhenPlaced": false,
-          "DrawType": "Model",
-          "CubeShadingMode": "Standard",
-          "Material": "Solid"
-        },
-        "Corner_Left": {
-          "CustomModel": "Resources/princesse.blockymodel",
-          "HitboxType": "Stairs_Thin_Corner_Left",
-          "FlipType": "Orthogonal",
-          "Supporting": {},
-          "SupportsRequiredFor": "All",
-          "DrawType": "Model"
-        }
-      }
-    },
-    "Supporting": {},
     "RandomRotation": "None",
     "MaxSupportDistance": 0,
     "FlipType": "Symmetric",
-    "CustomModelScale": 1,
+    "Opacity": "Solid",
+    "Looping": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Hidden.blockyanim"
+        },
+        "Off": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
+        }
+      }
+    },
     "Support": {
       "Down": [
         {
@@ -112,9 +111,6 @@
         }
       ]
     },
-    "Opacity": "Solid"
-  },
-  "Scale": 1.2,
-  "MaxStack": 100,
-  "Quality": "Quality_Items"
+    "InteractionSoundEventId": "SFX_Card_Interract"
+  }
 }

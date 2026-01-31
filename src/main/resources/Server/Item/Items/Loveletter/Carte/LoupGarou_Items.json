@@ -51,17 +51,16 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Resources/Models/princesse.blockymodel",
+    "CustomModel": "Resources/Models/LoveLetter_Card-Default-Hidden_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Models_Textures/Loup-garou.png",
+        "Texture": "Resources/Models_Textures/LoveLetter/Loup-garou.png",
         "Weight": 1
       }
     ],
     "Group": "Roof",
     "HitboxType": "Carte_Hitbox",
     "VariantRotation": "NESW",
-    "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
@@ -73,28 +72,11 @@
     "ParticleColor": "#e5aa5c",
     "State": {
       "Definitions": {
-        "Corner_Right": {
-          "CustomModel": "Resources/princesse.blockymodel",
-          "HitboxType": "Stairs_Thin_Corner_Right",
-          "FlipType": "Orthogonal",
-          "Supporting": {},
-          "Gathering": {
-            "Breaking": {
-              "DropList": ""
-            }
-          },
-          "IgnoreSupportWhenPlaced": false,
-          "DrawType": "Model",
-          "CubeShadingMode": "Standard",
-          "Material": "Solid"
+        "On": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Hidden.blockyanim"
         },
-        "Corner_Left": {
-          "CustomModel": "Resources/princesse.blockymodel",
-          "HitboxType": "Stairs_Thin_Corner_Left",
-          "FlipType": "Orthogonal",
-          "Supporting": {},
-          "SupportsRequiredFor": "All",
-          "DrawType": "Model"
+        "Off": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
         }
       }
     },
@@ -112,7 +94,22 @@
         }
       ]
     },
-    "Opacity": "Solid"
+    "Opacity": "Solid",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "InteractionSoundEventId": "SFX_Card_Interract"
   },
   "Scale": 1.2,
   "MaxStack": 100,
