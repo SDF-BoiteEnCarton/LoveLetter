@@ -51,7 +51,6 @@
   },
   "ItemLevel": 1,
   "MaxStack": 1,
-  "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.8,
     "Rotation": [
@@ -64,5 +63,7 @@
       -16
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Trophee_Win.png"
+  "Icon": "Icons/ItemsGenerated/Trophee_Win.png",
+  "UsePlayerAnimations": false,
+  "PlayerAnimationsId": "Trophy"
 }

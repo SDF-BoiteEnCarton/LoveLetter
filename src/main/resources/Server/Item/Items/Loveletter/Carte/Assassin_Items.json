@@ -41,30 +41,22 @@
   "Tags": {
     "Type": [
       "Carte"
-    ],
-    "hidden_card": [
-      "item_id_carte_face_cache"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Cloth",
-  "DropOnDeath": false,
-  "InteractionConfig": {
-    "DisplayOutlines": false
-  },
+  "ItemSoundSetId": "ISS_Items_Metal",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "CustomModel": "Resources/Models/LoveLetter_Card-Default-Hidden_Model.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Models_Textures/Assassin.png",
+        "Texture": "Resources/Models_Textures/LoveLetter/Assassin.png",
         "Weight": 1
       }
     ],
     "Group": "Roof",
     "HitboxType": "Carte_Hitbox",
-    "VariantRotation": "UpDownNESW",
-    "Flags": {},
+    "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
@@ -77,22 +69,8 @@
     "RandomRotation": "None",
     "MaxSupportDistance": 0,
     "FlipType": "Symmetric",
-    "CustomModelScale": 1,
     "Opacity": "Solid",
     "Looping": false,
-    "PlacementSettings": {
-      "RotationMode": "StairFacingPlayer",
-      "AllowRotationKey": true,
-      "PlaceInEmptyBlocks": false
-    },
-    "Supporting": {
-      "Down": [
-        {}
-      ],
-      "North": [
-        {}
-      ]
-    },
     "Interactions": {
       "Use": {
         "Interactions": [
@@ -116,7 +94,17 @@
           "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
         }
       }
-    }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "AllowSupportPropagation": false,
+          "Support": "Required"
+        }
+      ]
+    },
+    "InteractionSoundEventId": "SFX_Card_Interract"
   },
   "Scale": 1.2,
   "MaxStack": 100,

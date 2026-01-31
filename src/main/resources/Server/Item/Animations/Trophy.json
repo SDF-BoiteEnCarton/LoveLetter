@@ -1,0 +1,53 @@
+{
+  "Animations": {
+    "Idle": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Loveletter_Trophy_Animation.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Block/Idle_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": false,
+      "Speed": 0.5,
+      "BlendingDuration": 0.1
+    },
+    "Run": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Block/Run_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Block/Run.blockyanim",
+      "Looping": true
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 2,
+    "PitchDeceleration": 0.15,
+    "Roll": 0.1,
+    "RollDeceleration": 0.15,
+    "X": 2,
+    "XDeceleration": 0.15,
+    "Y": 0.1,
+    "YDeceleration": 0.15,
+    "Z": 0.1,
+    "ZDeceleration": 0.15
+  },
+  "UseFirstPersonOverrides": false,
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 60,
+        "Min": -15
+      },
+      "TargetNodes": [
+        "Head",
+        "LShoulder",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  }
+}
