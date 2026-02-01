@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "loveletter.items.Loveletter_DoubleFace.name",
+    "Description": "loveletter.items.Loveletter_DoubleFace.description"
+  },
+  "Categories": [
+    "Games.Loveletter"
+  ],
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      270,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Loveletter/Cartes/Love_Letter_Caree_Verso_64x64.png",
+  "Tags": {
+    "Type": [
+      "Carte"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Scale": 1.2,
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Models/LoveLetter_Card-Default-Hidden_Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/LoveLetter/Hidden.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Roof",
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#e5aa5c",
+    "RandomRotation": "None",
+    "MaxSupportDistance": 0,
+    "FlipType": "Symmetric",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "AllowSupportPropagation": false,
+          "Support": "Disallowed",
+          "MatchSelf": "Disallowed"
+        }
+      ]
+    },
+    "Opacity": "Solid",
+    "InteractionSoundEventId": "SFX_Card_Interract"
+  },
+  "Quality": "Quality_Items"
+}

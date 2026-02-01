@@ -28,19 +28,22 @@
   "IconProperties": {
     "Scale": 1,
     "Rotation": [
-      20,
+      270,
       0,
       0
     ],
     "Translation": [
       0,
-      -17
+      0
     ]
   },
   "Icon": "Icons/ItemsGenerated/Loveletter/Cartes/Loup-garou_64x64.png",
   "Tags": {
     "Type": [
       "Carte"
+    ],
+    "Hidden": [
+      "Hidden_Items"
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
@@ -84,7 +87,6 @@
     "RandomRotation": "None",
     "MaxSupportDistance": 0,
     "FlipType": "Symmetric",
-    "CustomModelScale": 1,
     "Support": {
       "Down": [
         {
