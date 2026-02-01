@@ -47,3 +47,6 @@ items.Loveletter_Diable.description=[TMP] <color is="#067a29">Pouvoir de cette c
 
 items.Loveletter_Magicien.name=0 Magicien
 items.Loveletter_Magicien.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Quand un joueur joue une carte qui vous cible, vous pouvez annuler son effet, ou l'appliquer à un autre joueur de votre choix. Piochez ensuite une carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_DoubleFace.name=LoveLetter
+items.Loveletter_DoubleFace.description=[TMP] <color is="#000000">Cette carte ne sert à rien dans le jeux. Elle est juste la pour cacher la main des autres personnes</color>
