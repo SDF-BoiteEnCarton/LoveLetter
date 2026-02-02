@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Rock_Gold_Brick.name"
+    "Name": "server.items.Trophy.name"
   },
-  "Set": "Rock_Gold_Brick",
+  "Set": "Deco_Trophy",
   "Recipe": {
     "Input": [
       {
@@ -12,12 +12,14 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Furnace",
-        "Type": "Processing"
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Games"
+        ]
       }
     ],
     "OutputQuantity": 1,
-    "TimeSeconds": 0
+    "TimeSeconds": 1
   },
   "BlockType": {
     "Gathering": {
@@ -39,14 +41,11 @@
     ],
     "Material": "Solid",
     "RotationYawPlacementOffset": "None",
-    "FlipType": "Orthogonal"
+    "FlipType": "Symmetric"
   },
   "Tags": {
-    "Family": [
-      "Gold"
-    ],
     "Type": [
-      "Rock"
+      "Block.Deco"
     ]
   },
   "ItemLevel": 1,
@@ -64,6 +63,8 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/Trophee_Win.png",
-  "UsePlayerAnimations": false,
-  "PlayerAnimationsId": "Trophy"
+  "PlayerAnimationsId": "Trophy",
+  "Categories": [
+    "Games.Loveletter"
+  ]
 }

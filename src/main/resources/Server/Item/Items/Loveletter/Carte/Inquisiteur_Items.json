@@ -1,0 +1,119 @@
+{
+  "TranslationProperties": {
+    "Name": "loveletter.items.Loveletter_Inquisiteur.name",
+    "Description": "loveletter.items.Loveletter_Inquisiteur.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 2,
+    "RequiredMemoriesLevel": 1,
+    "OutputQuantity": 1,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Games"
+        ]
+      }
+    ]
+  },
+  "Categories": [
+    "Games.Loveletter"
+  ],
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      270,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Loveletter/Cartes/Inquisiteur 64x64.png",
+  "Tags": {
+    "Type": [
+      "Carte"
+    ],
+    "Hidden": [
+      "Hidden_Items"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": false,
+  "InteractionConfig": {
+    "DisplayOutlines": false
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Models/LoveLetter_Card-Default-Hidden_Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/LoveLetter/Inquisiteur.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Roof",
+    "HitboxType": "Carte_Hitbox",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "Inquisiteur_Items"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#e5aa5c",
+    "State": {
+      "Definitions": {
+        "On": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Hidden.blockyanim"
+        },
+        "Off": {
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
+        }
+      }
+    },
+    "Supporting": {},
+    "RandomRotation": "None",
+    "MaxSupportDistance": 0,
+    "FlipType": "Symmetric",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "AllowSupportPropagation": false,
+          "Support": "Required"
+        }
+      ]
+    },
+    "Opacity": "Solid",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "InteractionSoundEventId": "SFX_Card_Interract"
+  },
+  "Scale": 1.2,
+  "MaxStack": 100,
+  "Quality": "Quality_Items"
+}
