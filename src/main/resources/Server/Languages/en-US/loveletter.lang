@@ -36,11 +36,11 @@ items.Loveletter_Clown.description=[TMP] <color is="#067a29">Pouvoir de cette ca
 items.Loveletter_Cupidon.name=0 Cupidon
 items.Loveletter_Cupidon.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Choisissez publiquement deux joueurs (y compris vous), si l'un d'eux est éliminé durant la manche, l'autre joueur l'est aussi. S'ils sont les deux derniers joueurs en jeu durant la manche, ils gagnent chacun un point.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
 
-items.Loveletter_Loupgarou.name=0 Loup-garou (a revoir)
-items.Loveletter_Loupgarou.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Piochez une carte, regardez-la secrètement et défaussez la face cachée. Puis piochez une autre carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+items.Loveletter_Loupgarou.name=0 Loup-garou
+items.Loveletter_Loupgarou.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Pioches 1 carte. Défausses la face cachée en ignorant son pouvoir.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
 
-items.Loveletter_Vampire.name=0 Vampire (a revoir)
-items.Loveletter_Vampire.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Faites défausser face cachée la carte d'un joueur en la regardant secrètement et en ignorant son pouvoir. Ce joueur pioche une nouvelle carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+items.Loveletter_Vampire.name=0 Vampire
+items.Loveletter_Vampire.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Prends la carte en main d'un joueur. Défausses la chez toi face cachée en ignorant son pouvoir. Ce joueur pioche une nouvelle carte.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
 
 items.Loveletter_Diable.name=0 Diable
 items.Loveletter_Diable.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Si vous êtes éliminé alors que vous avez cette carte dans votre défausse, replacez-la dans la pioche. Le prochain joueur qui pioche le Diable est immédiatement éliminé.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
@@ -50,3 +50,39 @@ items.Loveletter_Magicien.description=[TMP] <color is="#067a29">Pouvoir de cette
 
 items.Loveletter_DoubleFace.name=LoveLetter
 items.Loveletter_DoubleFace.description=[TMP] <color is="#000000">Cette carte ne sert à rien dans le jeux. Elle est juste la pour cacher la main des autres personnes</color>
+
+items.Loveletter_Bourreau.name=0 Bourreau
+items.Loveletter_Bourreau.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Quand tu joues le Bourreau, puis à la fin de chacun de tes tours tant qu’il reste dans ta défausse et que tu n’es pas éliminé, chaque autre joueur doit écarter une carte de son choix de sa défausse.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_DameBlanche.name=0 Dame Blanche (a revoir)
+items.Loveletter_DameBlanche.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">À la fin de ton tour, écarte une carte de ta défausse pour garder la Dame Blanche. Tant qu’elle est là, tu ne peux pas être ciblé ; sinon, passe-la dans la défausse du joueur suivant, et ainsi de suite.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Dieu.name=0 Dieu (a revoir)
+items.Loveletter_Dieu.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Tu dois distribuer ta défausse et défausser chez les autres joueurs. Tu pioches jusqu’à avoir 2 cartes en main à chaque fin de tour.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Flutiste.name=0 Flûtiste
+items.Loveletter_Flutiste.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Tout le monde passe sa carte en main au joueur de droite.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Fossoyeur.name=0 Fossoyeur
+items.Loveletter_Fossoyeur.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Pioches 1 carte au hasard dans chaque défausse, même des joueurs éliminés, puis pose-les dans la pioche.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Inquisiteur.name=0 Inquisiteur
+items.Loveletter_Inquisiteur.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Chaque joueur pointe du doigt un joueur de son choix (sauf toi). Celui qui est majoritaire te donne sa carte (tu départages). Place-la dans ta défausse, en ignorant son pouvoir.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Mendiant.name=0 Mendiant
+items.Loveletter_Mendiant.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">S’il est dans ta main ou ta défausse en fin de manche, choisis le mode de décompte des points: par valeur des cartes ou nombre de cartes.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Necromancien.name=0 Nécromancien
+items.Loveletter_Necromancien.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Ressuscite un joueur éliminé et récupère sa défausse. Interdiction de se cibler mutuellement. \nTous les deux derniers en jeu > 1 point chacun.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Sorciere.name=0 Sorcière
+items.Loveletter_Sorciere.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Écarte du jeu l'une des cartes de ta defausse et aplique a nouveau son pouvoir</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Taverniere.name=0 Tavernière
+items.Loveletter_Taverniere.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Place cette carte dans la défausse d’un joueur : \nA son prochain tour, il écarte du jeu la Tavernière et passe son tour.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Voleuse.name=0 Voleuse (a revoir)
+items.Loveletter_Voleuse.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Devine dans quelle main le joueur ciblé cache un de ses points (entre 1 et 9). Si tu devines, tu gagnes le point et tu quittes la manche. Sinon, donne lui la première carte de ta défausse.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
+
+items.Loveletter_Zombie.name=0 Zombie
+items.Loveletter_Zombie.description=[TMP] <color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Éliminé avec Zombie en main ou dans la défausse : Remets-la dans la pioche. Le prochain joueur qui pioche le Zombie est éliminé.</color> \n\n<color is="#000000">Nombre d’exemplaires dans le jeu : 1</color>
