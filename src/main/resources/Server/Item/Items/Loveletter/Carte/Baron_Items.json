@@ -65,7 +65,7 @@
       }
     ],
     "Group": "Roof",
-    "HitboxType": "Carte_Hitbox",
+    "HitboxType": "Carte_FaceHidden_Hitbox",
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
@@ -101,7 +101,8 @@
           "CustomModelAnimation": "Resources/Animations/Loveletter_Hidden.blockyanim"
         },
         "Off": {
-          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim",
+          "HitboxType": "Carte_Hitbox"
         }
       }
     },

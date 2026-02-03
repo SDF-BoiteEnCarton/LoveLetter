@@ -46,7 +46,7 @@
       "Hidden_Items"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Metal",
+  "ItemSoundSetId": "ISS_Items_Cloth",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -58,7 +58,6 @@
       }
     ],
     "Group": "Roof",
-    "HitboxType": "Carte_Hitbox",
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
@@ -94,7 +93,8 @@
           "CustomModelAnimation": "Resources/Animations/Loveletter_Hidden.blockyanim"
         },
         "Off": {
-          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim"
+          "CustomModelAnimation": "Resources/Animations/Loveletter_Revealed.blockyanim",
+          "HitboxType": "Carte_Hitbox"
         }
       }
     },
@@ -107,7 +107,8 @@
         }
       ]
     },
-    "InteractionSoundEventId": "SFX_Card_Interract"
+    "InteractionSoundEventId": "SFX_Card_Interract",
+    "HitboxType": "Carte_FaceHidden_Hitbox"
   },
   "Scale": 1.2,
   "MaxStack": 100,
