@@ -50,7 +50,7 @@ items.Loveletter_Magicien.name=0 Magicien
 items.Loveletter_Magicien.description=[TMP] <i>"Ta puissante magie te permet de rediriger toute attaque contre un autre."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Annule ou redirige le pouvoir d'une carte jouée contre toi\n(sauf contre le lanceur du pouvoir).\nPioche ensuite une carte.</color> \n\n<color is="#000000">1 exemplaire</color>
 
 items.Loveletter_DoubleFace.name=LoveLetter
-items.Loveletter_DoubleFace.description=[TMP] <i>xxx</i> \n\n<color is="#000000">Cette carte ne sert à rien dans le jeux. Elle est juste la pour cacher la main des autres personnes</color>
+items.Loveletter_DoubleFace.description=[TMP] <color is="#000000">Cette carte ne sert à rien dans le jeux. Elle est juste la pour cacher la main des autres personnes</color>
 
 items.Loveletter_Bourreau.name=0 Bourreau
 items.Loveletter_Bourreau.description=[TMP] <i>"En tant que Bourreau, tu dois faire couler le sang, et cela chaque jour."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Tant que le Bourreau est dans la défausse d'un joueur, au début de chacun de ses tours, il peut choisir un joueur qui doit écarter une carte de sa défausse.  </color> \n\n<color is="#000000">1 exemplaire</color>
