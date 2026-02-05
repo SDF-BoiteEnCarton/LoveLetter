@@ -70,7 +70,7 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
-        "ItemId": "Assassin_Items"
+        "ItemId": "Baron_Items"
       }
     },
     "BlockParticleSetId": "Grass",
