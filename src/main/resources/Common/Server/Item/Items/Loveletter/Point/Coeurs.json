@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Coeur Love Letter"
+  },
+  "ItemLevel": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Id": "GamesTable",
+        "Categories": [
+          "Loveletter_Bench"
+        ]
+      }
+    ],
+    "TimeSeconds": 1
+  },
+  "Categories": [
+    "BoiteAOutils_Outils.Loveletter"
+  ],
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Group": "Cloth",
+    "Flags": {
+      "IsUsable": false
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Flame",
+    "ParticleColor": "#cd1919",
+    "CustomModel": "Resources/Models/Coeur.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Models_Textures/Coeur_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Coeur_Loveletter",
+    "RequiresAlphaBlending": false,
+    "InteractionHint": "server.interactionHints.turnoff",
+    "Opacity": "Transparent",
+    "Looping": true,
+    "CustomModelAnimation": "Resources/Animations/Flotte.blockyanim"
+  },
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -41
+    ]
+  },
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Coeurs.png",
+  "UsePlayerAnimations": false,
+  "PlayerAnimationsId": "Block",
+  "Light": {
+    "Radius": 10,
+    "Color": "#e77"
+  }
+}
