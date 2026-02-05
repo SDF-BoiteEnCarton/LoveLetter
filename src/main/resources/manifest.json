@@ -1,25 +1,18 @@
 {
-  "Group": "SDF",
-  "Name": "LoveLetter",
-  "Version": "1.0.0",
-  "Description": "",
+  "Group": "${plugin_group}",
+  "Name": "${plugin_name}",
+  "Version": "${plugin_version}",
+  "Description": "${plugin_description}",
   "Authors": [
     {
-      "Name": "Leny15",
-      "Email": "",
-      "Url": ""
-    },
-    {
-      "Name": "Mimite",
-      "Email": "",
-      "Url": ""
+      "Name": "${plugin_author}"
     }
   ],
-  "Website": "",
+  "Website": "${plugin_website}",
+  "ServerVersion": "${server_version}",
   "Dependencies": {},
   "OptionalDependencies": {},
-  "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,
-  "SubPlugins": []
+  "Main": "${plugin_main_entrypoint}"
 }

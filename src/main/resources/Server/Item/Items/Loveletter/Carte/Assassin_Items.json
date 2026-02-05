@@ -4,9 +4,7 @@
     "Description": "loveletter.items.Loveletter_Assassin.description"
   },
   "Recipe": {
-    "TimeSeconds": 2,
     "RequiredMemoriesLevel": 1,
-    "OutputQuantity": 1,
     "Input": [
       {
         "ItemId": "Ingredient_Fabric_Scrap_Linen"
@@ -14,15 +12,15 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
+        "Id": "GamesTable",
         "Categories": [
-          "Workbench_Games"
+          "Loveletter_Bench"
         ]
       }
     ]
   },
   "Categories": [
-    "Games.Loveletter"
+    "BoiteAOutils_Outils.Loveletter"
   ],
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -61,8 +59,7 @@
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "GatherType": "SoftBlocks",
-        "ItemId": "Assassin_Items"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Grass",

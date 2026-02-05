@@ -4,7 +4,6 @@
     "Description": "loveletter.items.Loveletter_Prince.description"
   },
   "Recipe": {
-    "TimeSeconds": 2,
     "RequiredMemoriesLevel": 1,
     "OutputQuantity": 1,
     "Input": [
@@ -14,15 +13,15 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
+        "Id": "GamesTable",
         "Categories": [
-          "Workbench_Games"
+          "Loveletter_Bench"
         ]
       }
     ]
   },
   "Categories": [
-    "Games.Loveletter"
+    "BoiteAOutils_Outils.Loveletter"
   ],
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -66,8 +65,7 @@
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "GatherType": "SoftBlocks",
-        "ItemId": "Prince_Items"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Grass",
