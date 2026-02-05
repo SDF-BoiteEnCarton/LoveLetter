@@ -13,16 +13,16 @@
     "OutputQuantity": 1,
     "BenchRequirement": [
       {
-        "Id": "Workbench",
+        "Id": "GamesTable",
         "Categories": [
-          "Workbench_Games"
+          "Loveletter_Bench"
         ]
       }
     ],
     "TimeSeconds": 1
   },
   "Categories": [
-    "Games.Loveletter"
+    "BoiteAOutils_Outils.Loveletter"
   ],
   "BlockType": {
     "Material": "Empty",

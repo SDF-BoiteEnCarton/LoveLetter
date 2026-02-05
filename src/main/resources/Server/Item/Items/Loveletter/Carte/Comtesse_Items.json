@@ -14,15 +14,15 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
+        "Id": "GamesTable",
         "Categories": [
-          "Workbench_Games"
+          "Loveletter_Bench"
         ]
       }
     ]
   },
   "Categories": [
-    "Games.Loveletter"
+    "BoiteAOutils_Outils.Loveletter"
   ],
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -66,8 +66,7 @@
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "GatherType": "SoftBlocks",
-        "ItemId": "Comtesse_Items"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Grass",

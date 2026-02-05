@@ -4,7 +4,7 @@
     "Description": "loveletter.items.Loveletter_DoubleFace.description"
   },
   "Categories": [
-    "Games.Loveletter"
+    "BoiteAOutils_Outils.Loveletter"
   ],
   "IconProperties": {
     "Scale": 1,
