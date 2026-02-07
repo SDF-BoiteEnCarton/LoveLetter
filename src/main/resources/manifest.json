@@ -5,12 +5,20 @@
   "Description": "${plugin_description}",
   "Authors": [
     {
-      "Name": "${plugin_author}"
+      "Name": "Mimite"
+    },
+    {
+      "Name": "Leny15"
+    },
+    {
+      "Name": "Albador"
     }
   ],
   "Website": "${plugin_website}",
   "ServerVersion": "${server_version}",
-  "Dependencies": {},
+  "Dependencies": {
+    "io.boiteencarton:BoiteAOutilsEnCarton": ">=0.4.0"
+  },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,
