@@ -6,11 +6,10 @@ plugins {
 
 val javaVersion = 25
 group = "io.boiteencarton"
-version = "v0.1.0"
+version = "0.1.0"
 
 val server_version = "*"
 val plugin_description = "LoveLetter game for Hytale"
-val plugin_author = "Leny15,Mimite,Albador"
 val plugin_website = ""
 val plugin_main_entrypoint = "io.boiteencarton.loveletter.LoveLetter"
 
@@ -60,7 +59,6 @@ tasks.named<ProcessResources>("processResources") {
         "plugin_website" to plugin_website,
 
         "plugin_main_entrypoint" to plugin_main_entrypoint,
-        "plugin_author" to plugin_author
     )
 
     filesMatching("manifest.json") {

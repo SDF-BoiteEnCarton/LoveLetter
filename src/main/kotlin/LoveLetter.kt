@@ -2,7 +2,6 @@ package io.boiteencarton.loveletter
 
 import com.hypixel.hytale.server.core.plugin.JavaPlugin
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit
-import io.boiteencarton.loveletter.commands.LoveLetterTestCommand
 
 class LoveLetter(init: JavaPluginInit) : JavaPlugin(init) {
 
@@ -14,7 +13,5 @@ class LoveLetter(init: JavaPluginInit) : JavaPlugin(init) {
         plugin = this
     }
 
-    override fun setup() {
-        commandRegistry.registerCommand(LoveLetterTestCommand("loveletter", "Test the LoveLetter plugin"))
-    }
+    override fun setup() {}
 }
