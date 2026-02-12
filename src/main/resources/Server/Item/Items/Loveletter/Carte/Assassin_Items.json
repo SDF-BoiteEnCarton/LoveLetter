@@ -57,11 +57,6 @@
     ],
     "Group": "Roof",
     "VariantRotation": "NESW",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "SoftBlocks"
-      }
-    },
     "BlockParticleSetId": "Grass",
     "BlockSoundSetId": "Cloth",
     "ParticleColor": "#e5aa5c",
@@ -105,7 +100,12 @@
       ]
     },
     "InteractionSoundEventId": "SFX_Card_Interract",
-    "HitboxType": "Carte_FaceHidden_Hitbox"
+    "HitboxType": "Carte_FaceHidden_Hitbox",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    }
   },
   "Scale": 1.2,
   "MaxStack": 100,

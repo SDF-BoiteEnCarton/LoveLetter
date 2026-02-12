@@ -47,9 +47,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "DropOnDeath": false,
-  "InteractionConfig": {
-    "DisplayOutlines": false
-  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
