@@ -46,9 +46,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "DropOnDeath": false,
-  "InteractionConfig": {
-    "DisplayOutlines": false
-  },
   "Scale": 1.2,
   "MaxStack": 100,
   "Quality": "Quality_Items",

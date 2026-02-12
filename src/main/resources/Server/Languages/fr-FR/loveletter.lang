@@ -43,8 +43,7 @@ items.Loveletter_Vampire.name=0 Vampire
 items.Loveletter_Vampire.description=[TMP] <i>"La nuit venue, tu te faufiles chez quelqu’un pour y dérober discrètement ta proie."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Prends la carte en main d’un joueur.\nDéfausse-la face cachée dans ta défausse, sans en appliquer l’effet.\nCe joueur pioche une nouvelle carte.</color> \n\n<color is="#000000">1 exemplaire</color>
 
 items.Loveletter_Diable.name=0 Diable
-items.Loveletter_Diable.description=[TMP] <i>"Tu as vendu ton âme au diable, mais tu sais que c'est toujours quitte ou double avec lui."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Annonce une valeur et pioche 1 carte :\nSi tu trouves, tu gagnes 1 point et replace cette carte dans la pioche.\nSi tu te trompes, tu es éliminé de la manche.
-</color> \n\n<color is="#000000">1 exemplaire</color>
+items.Loveletter_Diable.description=[TMP] <i>"Tu as vendu ton âme au diable, mais tu sais que c'est toujours quitte ou double avec lui."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Annonce une valeur et pioche 1 carte :\nSi tu trouves, tu gagnes 1 point et replace cette carte dans la pioche.\nSi tu te trompes, tu es éliminé de la manche.</color> \n\n<color is="#000000">1 exemplaire</color>
 
 items.Loveletter_Magicien.name=0 Magicien
 items.Loveletter_Magicien.description=[TMP] <i>"Ta puissante magie te permet de rediriger toute attaque contre un autre."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Annule ou redirige le pouvoir d'une carte jouée contre toi\n(sauf contre le lanceur du pouvoir).\nPioche ensuite une carte.</color> \n\n<color is="#000000">1 exemplaire</color>

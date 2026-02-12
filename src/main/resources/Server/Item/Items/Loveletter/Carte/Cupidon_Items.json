@@ -47,9 +47,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "DropOnDeath": false,
-  "InteractionConfig": {
-    "DisplayOutlines": false
-  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -65,8 +62,7 @@
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "GatherType": "SoftBlocks",
-        "ItemId": "Cupidon_Items"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Grass",
