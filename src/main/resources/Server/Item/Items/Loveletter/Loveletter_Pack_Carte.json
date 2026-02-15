@@ -1,0 +1,160 @@
+{
+  "TranslationProperties": {
+    "Name": "loveletter.items.Loveletter_Pack_Carte.name",
+    "Description": "loveletter.items.Loveletter_Pack_Carte.description"
+  },
+  "Categories": [
+    "BoiteAOutils_Outils.Loveletter"
+  ],
+  "Icon": "Icons/ItemsGenerated/Loveletter_Pack_Carte.png",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Decorative_Sets/Royal_Magic/Chest_Small.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Royal_Magic/Chest_Small_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#551423",
+    "VariantRotation": "NESW"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.55,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "GamesTable",
+        "Categories": [
+          "Loveletter_Bench"
+        ]
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Assassin_Items"
+      },
+      {
+        "ItemId": "Baron_Items",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Bourreau_Items"
+      },
+      {
+        "ItemId": "Clown_Items"
+      },
+      {
+        "ItemId": "Comtesse_Items"
+      },
+      {
+        "ItemId": "Cupidon_Items"
+      },
+      {
+        "ItemId": "DameBlanche_Items"
+      },
+      {
+        "ItemId": "Diable_Items"
+      },
+      {
+        "ItemId": "Dieu_Items"
+      },
+      {
+        "ItemId": "Flutiste_Items"
+      },
+      {
+        "ItemId": "Fossoyeur_Items"
+      },
+      {
+        "ItemId": "Garde_Items",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Inquisiteur_Items"
+      },
+      {
+        "ItemId": "LoupGarou_Items"
+      },
+      {
+        "ItemId": "Magicien_Items"
+      },
+      {
+        "ItemId": "Mendiant_Items"
+      },
+      {
+        "ItemId": "Necromancien_Items"
+      },
+      {
+        "ItemId": "Pretresse_Items",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Prince_Items",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Princesse_Items"
+      },
+      {
+        "ItemId": "Roi_Items"
+      },
+      {
+        "ItemId": "Servante_Items",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Sorciere_Items"
+      },
+      {
+        "ItemId": "Taverniere_Items"
+      },
+      {
+        "ItemId": "Vampire_Items"
+      },
+      {
+        "ItemId": "Voleuse_Items"
+      },
+      {
+        "ItemId": "Voyante_Items"
+      },
+      {
+        "ItemId": "Zombie_Items"
+      }
+    ],
+    "TimeSeconds": 1
+  },
+  "Quality": "Quality_Items",
+  "MaxStack": 1
+}
