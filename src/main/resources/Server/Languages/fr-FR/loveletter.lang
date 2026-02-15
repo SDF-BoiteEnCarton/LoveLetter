@@ -86,3 +86,6 @@ items.Loveletter_Voleuse.description=[TMP] <i>“A la tombée de la nuit, tu vol
 
 items.Loveletter_Zombie.name=0 Zombie
 items.Loveletter_Zombie.description=[TMP] <i>"Après ta mort, tu sais que ton corps pourrissant trouvera un moyen de te venger."</i> \n\n<color is="#067a29">Pouvoir de cette carte:</color> \n<color is="#000000">Tant que cette carte est dans ta défausse, si un joueur t’élimine (directement ou indirectement), mélange ta défausse face cachée.\nIl en pioche une : si c’est le Zombie, il est aussi éliminé.</color> \n\n<color is="#000000">1 exemplaire</color>
+
+items.Loveletter_Pack_Carte.name=Pack de Cartes
+items.Loveletter_Pack_Carte.description=[TMP] <color is="#000000">Un paquet soigneusement préparé, contenant le nombre exact de cartes requis pour débuter une partie.</color> \n<color is="#c20909">!! Recommande d'avoir au moins 26 places dans l'inventaire !!</color>
