@@ -17,7 +17,7 @@
   "Website": "${plugin_website}",
   "ServerVersion": "${server_version}",
   "Dependencies": {
-    "io.boiteencarton:BoiteAOutilsEnCarton": ">=1.0.0"
+    "io.boiteencarton:BoiteAOutilsEnCarton": ">=1.1.0"
   },
   "OptionalDependencies": {},
   "DisabledByDefault": false,

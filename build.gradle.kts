@@ -6,9 +6,9 @@ plugins {
 
 val javaVersion = 25
 group = "io.boiteencarton"
-version = "1.0.0"
+version = "1.1.0"
 
-val server_version = "*"
+val server_version = "2026.02.17-255364b8e"
 val plugin_description = "LoveLetter game for Hytale"
 val plugin_website = ""
 val plugin_main_entrypoint = "io.boiteencarton.loveletter.LoveLetter"
